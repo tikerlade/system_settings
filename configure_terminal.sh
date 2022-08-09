@@ -9,7 +9,7 @@ chsh -s $(which zsh)
 
 
 # INSTALL TMUX
-apt isntall tmux -y
+apt install tmux -y
 
 # INSTALL PLUGINS
 # Install plugins (powerlevel10k)
