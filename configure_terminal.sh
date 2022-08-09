@@ -24,13 +24,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 
 # DOWLOAD CONFIG FILES
 # .zshrc file
-curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.zshrc > .zshrc
+curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.zshrc > ~/.zshrc
 
 # .p10k.zsh file
-curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.p10k.zsh > .p10k.zsh
+curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.p10k.zsh > ~/.p10k.zsh
 
 # .tmux file
-curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.tmux.conf > .tmux.conf
+curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.tmux.conf > ~/.tmux.conf
+tmux source ~/.tmux.conf
 
 # .main-highlighter.zsh
 curl https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/main-highlighter.zsh > $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh
