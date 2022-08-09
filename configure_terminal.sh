@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ISNTALL ZSH
 apt install zsh -y
 
