@@ -7,7 +7,7 @@ sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Set zsh as default
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
 
 
 # INSTALL TMUX
