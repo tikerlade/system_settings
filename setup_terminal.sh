@@ -5,3 +5,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tikerlade/system_settings/
 
 # Configure installed tools
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/tikerlade/system_settings/main/configure_terminal_tools.sh)"
+
+# Reboot to apply changes
+sudo reboot
