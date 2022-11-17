@@ -10,4 +10,4 @@ chsh -s $(which zsh)
 sudo apt install tmux -y
 
 # Install oh-my-zsh (https://github.com/ohmyzsh/ohmyzsh#unattended-install)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+sh -c "$(curl -fsSLk https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
