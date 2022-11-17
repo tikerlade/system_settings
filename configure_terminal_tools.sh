@@ -13,13 +13,13 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CU
 
 # DOWLOAD CONFIG FILES
 # .zshrc file
-sudo curl -L https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.zshrc -o .zshrc
+sudo curl -Lk https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.zshrc -o .zshrc
 
 # .p10k.zsh file
-sudo curl -L https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.p10k.zsh -o .p10k.zsh
+sudo curl -Lk https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.p10k.zsh -o .p10k.zsh
 
 # .tmux file
-sudo curl -L https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.tmux.conf -o .tmux.conf
+sudo curl -Lk https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/.tmux.conf -o .tmux.conf
 
 # .main-highlighter.zsh
-sudo curl -L https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/main-highlighter.zsh -o ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh
+sudo curl -Lk https://raw.githubusercontent.com/tikerlade/system_settings/main/configs/main-highlighter.zsh -o ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh
