@@ -18,3 +18,8 @@ After all tools have been installed we can configure them using:
 ```shell
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/tikerlade/system_settings/main/configure_terminal_tools.sh)"
 ```
+
+
+## Firefox extensions
+* [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+* [Tab Numbers](https://addons.mozilla.org/ru/firefox/addon/tab_numbers/)
